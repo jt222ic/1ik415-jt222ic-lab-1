@@ -3,23 +3,33 @@
     <head>
         <meta charset="utf-8" />
         <title>Laborationsportal</title>
-        
+        <link rel="stylesheet" href="Csss/style.css" />
     </head>
     <body>
+    
+    
+    <div id="header">
         <h1>Min laborationsportal</h1>
    
         <p>Jan:s test sajt</p>
-    <ul>
-          <li><a href="../index.html"> Startsida</a></li>
-          <li><a href="laboration.html"> Laboration</a></li>
-          <li><a href ="presentation.html"> Presentation</a></li>
-          <li><a href ="kontakt.html"> Kontakt</a></li>
+   </div>
+   
+   
+   
+   <div id="nav">
+     <ul>
+          <li><a href="../index.html" class="active"> Startsida</a></li>
+          <li><a href="laboration.html" class="active"> Laboration</a></li>
+          <li><a href ="presentation.html" class="active"> Presentation</a></li>
+          <li><a href ="kontakt.html" class="active"> Kontakt</a></li>
     </ul>
+    </div>
+<div id="section">           
     <h2>Webbteknisk introduktion</h2>
     
     <ul>
-    <li><a href="laboration.html#lab1"> Laboration 1</a></li>
-    <li><a href="laboration.html#lab2"> Laboration 2</a></li>
+    <li><a href="laboration.html#lab1" class="active"> Laboration 1</a></li>
+    <li><a href="laboration.html#lab2" class="active"> Laboration 2</a></li>
     
         
     </ul>
@@ -118,7 +128,7 @@
 </table>
     
     
-        
+ 
     
     <a id="lab1"></a> 
     <h3>Laboration 1</h3>
@@ -128,7 +138,7 @@
     
 <ol>
         <li> www-katalog.check </li>
-        <li><a href ="Presentation.html">Ett första dokument</a></li>
+        <li><a href ="Presentation.html" class="active">Ett första dokument</a></li>
 </ol>
     
     <h3>Laboration 2</h3>
@@ -144,23 +154,23 @@
     
     
    
-    
-<dl>
-         <dt>Absoluta och relativa sökvägar</dt>
-        <dt>skriv den absoluta sökvägen till filen bottom.hmtl </dt>
-        <dd>https://www.server.se/html/pages/bottom.html</dd>
-        <dt>Skriv den relativa sökvägen från filen default.html till filen top.html</dt>
-        <dd>pages/top.html</dd>
-        <dt>Skriv den relativa sökvägen från filen bottom.html till filen index.html</dt>
-        <dd>../../index.html</dd>
-        <dt>Skriv den absoluta sökvägen till filen index.html</dt>
-        <dd>https://www.server.se/index.html</dd>
-        <dt>Skriv den relativa sökvägen från filen top.html till bottom.html</dt>
-        <dd>bottom.html</dd>
-        <dt>Skriv den relativa sökvägen från filen index.html till top.html</dt>
-        <dd>html/pages/top.html</dd>
-</dl>
-    
+
+                <dl>
+                     <dt>Absoluta och relativa sökvägar</dt>
+                    <dt>skriv den absoluta sökvägen till filen bottom.hmtl </dt>
+                    <dd>https://www.server.se/html/pages/bottom.html</dd>
+                    <dt>Skriv den relativa sökvägen från filen default.html till filen top.html</dt>
+                    <dd>pages/top.html</dd>
+                    <dt>Skriv den relativa sökvägen från filen bottom.html till filen index.html</dt>
+                    <dd>../../index.html</dd>
+                    <dt>Skriv den absoluta sökvägen till filen index.html</dt>
+                    <dd>https://www.server.se/index.html</dd>
+                    <dt>Skriv den relativa sökvägen från filen top.html till bottom.html</dt>
+                    <dd>bottom.html</dd>
+                    <dt>Skriv den relativa sökvägen från filen index.html till top.html</dt>
+                    <dd>html/pages/top.html</dd>
+                </dl>
+   
 <ol>
         <li>Länkar och listar</li>
         <li>Bilder /länk till bilder <a href="../index.html#ankar">Svg</a>
@@ -168,12 +178,14 @@
         <a href="presentation.html#bild">Jpeg</a>
             
         </li>
-        <li>Video /Länk till den weirdiga kaninen <a href="../index.html#bunny">Bigbuckbunny</a></li> 
+        <li>Video /Länk till den weirdiga kaninen <a href="../index.html#bunny" class="active">Bigbuckbunny</a></li> 
 </ol>
     
     
-   
-        
+</div>
+<div id="footer">
+<p>Copyright JanTranCompany</p>
+</div>
     
     </body>
 </html>
