@@ -8,8 +8,7 @@ h1, h2{
     color:blue;
 }
 
-#wrapper{width:960px;
-margin:0 auto ;}
+
 
 #header {
     background-color:black;
@@ -20,16 +19,17 @@ margin:0 auto ;}
 #nav{
     line-height:30px;
     background-color:#eeeeee;
-    height:300px;
-    width:100px;
+    height:650px;
+    width:200px;
     float:left;
     padding:5px; 
 }
 #section {
-    width:200px;
+    width:1100px;
     float:right;
     padding:10px
-    float:left; 
+    float:center; 
+    text-align:left;
 }
 #footer {
     background-color:black;
