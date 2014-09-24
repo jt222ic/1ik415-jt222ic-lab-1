@@ -1,20 +1,36 @@
 
 
-body{
- background-color:;   
+body{font-size:1.1em;                 
+ 
+}
+body{background-color:#FFE7AA;   
+	
 }
 
-h1, h2{
-    color:blue;
+h1, h2 {font-family: "Helvetica", Arial, sans-serif; color:blue;
 }
 
+p {font-family: "Helvetica", Arial, sans-serif;}
 
+
+dl,dt,dd{ line-height: 200%; }   
+
+
+
+	
 
 #header {
     background-color:black;
     color:white;
     text-align:center;
     padding:5px;
+    
+       background-image:url(../jpeg/mozilla_star.svg);
+    background-position:top-right;
+    background-repeat:no-repeat;
+    background-size: 100px 200px;s
+    
+ 
 }
 
 #section {
@@ -23,9 +39,10 @@ h1, h2{
     padding:10px
     float:right; 
     text-align:left;
+       
 }
 #footer {
-    background-color:white;
+    background-color:black;
     color:white;
     clear:both;
     text-align:center;
@@ -88,4 +105,10 @@ html>body #nav li a {
 	color: #fff;
 }
 
-
+.bild {
+	background-image:url(../jpeg/Smiley.svg);
+    background-position: top-right;
+    background-repeat:no-repeat;
+    background-size: 300px 200px;
+    
+}
