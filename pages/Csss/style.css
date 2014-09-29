@@ -116,7 +116,7 @@ margin-bottom:20px;
 
 #container {
     overflow: auto;
-    background-color:grey;
+    background-image: url('../jpeg/bird.jpg');
     max-width: 950px;
     margin: 0 auto;
     
