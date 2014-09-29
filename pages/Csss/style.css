@@ -4,11 +4,16 @@ body  {
     background-image: url('../jpeg/China.jpg');
     
     }
-/* text för p */
+/* text för p typografi */
 p{
     color:black;
 text-shadow: 5px 5px 10px #41C800;
     font-style: italic, sans-serif;
+    text-align:left;
+
+
+
+    
 }
 
 /* formulär */
@@ -20,19 +25,17 @@ margin-bottom:20px;
 #cform textarea { height:100px; } 
 #cform .checkbox { width:auto; } 
 
-img{
-    float:right;
+.img{
+    float:left;
 }
 
-#header{
-    
-}
+
 
 
 /* navigation */
 
 #nav {
-      width: 13%;
+      width: 14%;
       float: left;
       margin:0;
       padding: 0;
@@ -55,6 +58,10 @@ img{
       color: #c00;
       background-color: #fff; }
       
+      /* nav focus class */
+      
+  
+      
       
       
       /* class active */
@@ -64,10 +71,53 @@ img{
         font-weight:bold;
         text-align:left;
         color:black;
-        background-color:red;
-         box-shadow: 10px 10px 5px #888888;        /* skuggning för märkning */
+        
+         box-shadow: 10px 10px 5px #888888;
+         background-color: lightblue; 
+        /* skuggning för märkning */
         
     }
     
+    /* content */
     
+    #content{
+        
+        
+        background-color:white;
+        
+        float:left;
+        width: 800px;
+    }
+    
+ 
+    
+    
+    /* header */
+    
+    #header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    }
+    
+    
+    /*footer */
+    
+    
+    #footer {
+    
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
 
+#container {
+    overflow: auto;
+    background-color:grey;
+    max-width: 950px;
+    margin: 0 auto;
+    
+}
