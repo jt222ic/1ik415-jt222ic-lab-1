@@ -1,11 +1,17 @@
-#back 
-{background-image:url(jpeg/China.jpg);
-    background-repeat:no-repeat;
-    background-position: 440px 180px, 0 0;
+/* backgrundsbild */
 
+body  {
+    background-image: url('../jpeg/China.jpg');
+    
+    }
+/* text för p */
+p{
+    color:black;
+text-shadow: 5px 5px 10px #41C800;
+    font-style: italic, sans-serif;
 }
 
-
+/* formulär */
 #cform input, #cform textarea, #cform select 
 { 
 width:300px; 
@@ -13,3 +19,55 @@ margin-bottom:20px;
 } 
 #cform textarea { height:100px; } 
 #cform .checkbox { width:auto; } 
+
+img{
+    float:right;
+}
+
+#header{
+    
+}
+
+
+/* navigation */
+
+#nav {
+      width: 13%;
+      float: left;
+      margin:0;
+      padding: 0;
+      list-style: none;
+      background-color: #f2f2f2;
+      border-bottom: 1px solid #ccc; 
+      border-top: 1px solid #ccc; }
+   #nav li {float:left;
+       }
+   #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      border-right: 1px solid #ccc;
+      list-style:none;}
+   #nav li a:hover {
+       list-style:none;
+      color: #c00;
+      background-color: #fff; }
+      
+      
+      
+      /* class active */
+    
+.active{
+        
+        font-weight:bold;
+        text-align:left;
+        color:black;
+        background-color:red;
+         box-shadow: 10px 10px 5px #888888;        /* skuggning för märkning */
+        
+    }
+    
+    
+
