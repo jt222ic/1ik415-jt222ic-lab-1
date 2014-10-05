@@ -1,0 +1,19 @@
+@media print {
+
+
+.active{
+  box-shadow: none;
+  
+}
+
+
+.videobort{display:none;
+  
+  
+}
+
+#nav{ display:none;}
+
+#kuk { display:none;}
+
+}
