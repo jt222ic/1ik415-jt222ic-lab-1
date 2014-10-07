@@ -161,3 +161,52 @@ letter-spacing:
 3px; border: 1px solid #99cc00;
 }
 
+
+
+/* startikoner för menyn */
+
+
+#Start-icon {background-image:url('../jpeg/sprite.png');
+        	background-repeat:no-repeat;
+        	background-position:0 -40px;
+    
+}
+#Start-icon:hover {
+    background-image:url('sprite.png');
+	background-repeat:no-repeat;
+	background-position:0px -8px;
+    
+}
+#Laboration-icon {
+            background-position:0px -136px;
+            background-image:url('../jpeg/sprite.png');
+        	background-repeat:no-repeat;
+}
+#Laboration-icon:hover{
+            background-position:0px -88px;
+            background-image:url('../jpeg/sprite.png');
+        	background-repeat:no-repeat;
+}
+#Presentation-icon{
+            background-position:0px -232px;
+            background-image:url('../jpeg/sprite.png');
+            background-repeat:no-repeat;
+    
+}
+#Presentation-icon:hover{
+            background-position:0px -184px;
+            background-image:url('../jpeg/sprite.png');
+            background-repeat:no-repeat;
+    
+}
+#Kontakt-icon{
+            background-position:0px -328px;
+            background-image:url('../jpeg/sprite.png');
+            background-repeat:no-repeat;
+    
+}
+#Kontakt-icon:hover{
+            background-position:0px -280px;
+            background-image:url('../jpeg/sprite.png');
+            background-repeat:no-repeat;
+}

@@ -16,4 +16,8 @@
 
 #kuk { display:none;}
 
+/*försöker ta bort sidescrollen... */
+
+html { overflow: hidden; }
 }
+
