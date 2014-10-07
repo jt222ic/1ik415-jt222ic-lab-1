@@ -18,6 +18,11 @@
 
 /*försöker ta bort sidescrollen... */
 
-html { overflow: hidden; }
+
+
+#content {width: 100%;}
+
+
+
 }
 
