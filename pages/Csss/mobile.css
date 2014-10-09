@@ -1,13 +1,24 @@
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
+
+#container {max-width:100%;}
     
-#header , #nav , #content #footer{width:320px;
+#content { max-width:100%;}
+
+#nav { width:350px;}
+video, img {max-width:100%;}
+
+#footer {max-width:100%;}
+
+#header {max-width:100%;}
+
+#section {max-width:100%;}
+body{ margin:0;
+    
+}
+    
     
 }
 
-#container { width: 320px;}
-
-
-  
     
     
     
@@ -18,6 +29,3 @@
     
     
     
-    
-    
-}

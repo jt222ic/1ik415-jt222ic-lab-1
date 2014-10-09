@@ -174,7 +174,7 @@ letter-spacing:
 #Start-icon:hover {
     background-image:url('sprite.png');
 	background-repeat:no-repeat;
-	background-position:0px -8px;
+	background-position:0px 4px;
     
 }
 #Laboration-icon {
