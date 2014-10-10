@@ -210,3 +210,15 @@ letter-spacing:
             background-image:url('../jpeg/sprite.png');
             background-repeat:no-repeat;
 }
+
+
+#sten p {
+    text-align:center;
+}
+
+#sten img {
+    width:300px;
+}
+
+
+/*button submit enlarging*/

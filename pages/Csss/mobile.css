@@ -15,9 +15,22 @@ video, img {max-width:100%;}
 body{ margin:0;
     
 }
-    
-    
+
+#nav li a {padding:8px 15px 8px 28px;
 }
+
+#c#form input{width:100px}
+
+
+/* checkbox input */
+
+input{
+    
+height:100px;
+}
+}
+    
+    
 
     
     
