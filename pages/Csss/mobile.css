@@ -4,7 +4,21 @@
     
 #content { max-width:100%;}
 
-#nav { width:350px;}
+#nav {
+    width: 200px
+
+}
+
+.leftbar{display:block;
+    float:left;
+    width:300px;
+    
+}
+.rightbar{display:block;
+    float:left;
+    padding: 5px 10px;
+    padding-left:0;
+}
 video, img {max-width:100%;}
 
 #footer {max-width:100%;}
