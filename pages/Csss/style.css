@@ -172,9 +172,9 @@ letter-spacing:
     
 }
 #Start-icon:hover {
-    background-image:url('sprite.png');
+    background-image:url('../jpeg/sprite.png');
 	background-repeat:no-repeat;
-	background-position:0px 4px;
+	background-position:0px 6px;
     
 }
 #Laboration-icon {
