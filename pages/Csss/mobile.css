@@ -5,19 +5,25 @@
 #content { max-width:100%;}
 
 #nav {
-    width: 200px
-
+    width:100%;
 }
 
-.leftbar{display:block;
+#navi {background-color:black;
+width:100%;
+display:block;
+}
+
+.leftbar{
     float:left;
-    width:300px;
+    width:40%;
+    
     
 }
-.rightbar{display:block;
-    float:left;
-    padding: 5px 10px;
-    padding-left:0;
+.rightbar{
+float:left;
+width:40%;
+
+    
 }
 video, img {max-width:100%;}
 
@@ -30,7 +36,13 @@ body{ margin:0;
     
 }
 
-#nav li a {padding:8px 15px 8px 28px;
+#nav li{
+    float:none;
+}
+
+#nav li a {
+border-right:none;    
+    padding:8px 15px 8px 28px;
 }
 
 #c#form input{width:100px}
@@ -42,8 +54,8 @@ input{
     
 height:100px;
 }
-}
-    
+
+}   
     
 
     
